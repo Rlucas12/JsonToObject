@@ -2384,97 +2384,25 @@
 [debug] == resolving dependencies default#jsontoobject$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 		tried /Users/lucasreynes/.ivy2/local/io.circe/circe-core_2.12/0.9.3/srcs/circe-core_2.12-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/org.spire-math/jawn-parser_2.12/0.11.1/srcs/jawn-parser_2.12-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/com.chuusai/shapeless_2.12/2.3.3/srcs/shapeless_2.12-sources.jar
+[debug] 	[NOT REQUIRED] io.circe#circe-generic_2.12;0.9.3!circe-generic_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
-[debug] 		tried /Users/lucasreynes/.ivy2/local/io.circe/circe-generic_2.12/0.9.3/srcs/circe-generic_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/jawn-parser_2.12-0.11.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.9.3/circe-generic_2.12-0.9.3-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/circe-core_2.12-0.9.3-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/org.typelevel/cats-core_2.12/1.0.1/srcs/cats-core_2.12-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/org.typelevel/cats-kernel_2.12/1.0.1/srcs/cats-kernel_2.12-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/org.typelevel/cats-macros_2.12/1.0.1/srcs/cats-macros_2.12-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/io.circe/circe-numbers_2.12/0.9.3/srcs/circe-numbers_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/circe-numbers_2.12-0.9.3-sources.jar
+[debug] 	[NOT REQUIRED] io.circe#circe-core_2.12;0.9.3!circe-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.spire-math#jawn-parser_2.12;0.11.1!jawn-parser_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.chuusai#shapeless_2.12;2.3.3!shapeless_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.12;1.0.1!cats-kernel_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.12;1.0.1!cats-macros_2.12.jar(src)
+[debug] 	[NOT REQUIRED] io.circe#circe-numbers_2.12;0.9.3!circe-numbers_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.github.tototoshi#scala-csv_2.12;1.3.5!scala-csv_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.12;1.0.1!cats-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
-[debug] 		tried /Users/lucasreynes/.ivy2/local/org.typelevel/machinist_2.12/0.6.2/srcs/machinist_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/com.github.tototoshi/scala-csv_2.12/1.3.5/srcs/scala-csv_2.12-sources.jar
-[debug] 		tried https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.12/1.3.5/scala-csv_2.12-1.3.5-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/io.circe/circe-jawn_2.12/0.9.3/srcs/circe-jawn_2.12-sources.jar
+[debug] 	[NOT REQUIRED] io.circe#circe-jawn_2.12;0.9.3!circe-jawn_2.12.jar(src)
+[debug] 	[NOT REQUIRED] io.circe#circe-parser_2.12;0.9.3!circe-parser_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/circe-jawn_2.12-0.9.3-sources.jar
-[debug] 		tried /Users/lucasreynes/.ivy2/local/io.circe/circe-parser_2.12/0.9.3/srcs/circe-parser_2.12-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/circe-parser_2.12-0.9.3-sources.jar
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[info] downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/jawn-parser_2.12-0.11.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/jawn-parser_2.12-0.11.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/circe-core_2.12-0.9.3-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.9.3/circe-generic_2.12-0.9.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/circe-core_2.12-0.9.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.9.3/circe-generic_2.12-0.9.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/jawn-parser_2.12-0.11.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/circe-core_2.12-0.9.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.9.3/circe-generic_2.12-0.9.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.11.1/jawn-parser_2.12-0.11.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.0.1/cats-kernel_2.12-1.0.1-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/0.9.3/circe-generic_2.12-0.9.3-sources.jar
-[info] 	[SUCCESSFUL ] org.spire-math#jawn-parser_2.12;0.11.1!jawn-parser_2.12.jar(src) (105ms)
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.12;1.0.1!cats-kernel_2.12.jar(src) (103ms)
-[info] 	[SUCCESSFUL ] io.circe#circe-generic_2.12;0.9.3!circe-generic_2.12.jar(src) (106ms)
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/circe-numbers_2.12-0.9.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/circe-numbers_2.12-0.9.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/circe-jawn_2.12-0.9.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/circe-jawn_2.12-0.9.3-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar ...
-[info] downloading https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.12/1.3.5/scala-csv_2.12-1.3.5-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.12/1.3.5/scala-csv_2.12-1.3.5-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar
-[info] downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-core_2.12/0.9.3/circe-core_2.12-0.9.3-sources.jar
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3-sources.jar
-[info] 	[SUCCESSFUL ] io.circe#circe-core_2.12;0.9.3!circe-core_2.12.jar(src) (122ms)
-[info] 	[SUCCESSFUL ] com.chuusai#shapeless_2.12;2.3.3!shapeless_2.12.jar(src) (123ms)
-[info] downloading https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/circe-parser_2.12-0.9.3-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/circe-parser_2.12-0.9.3-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/circe-numbers_2.12-0.9.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/circe-jawn_2.12-0.9.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/circe-parser_2.12-0.9.3-sources.jar.sha1
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.12/1.3.5/scala-csv_2.12-1.3.5-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-numbers_2.12/0.9.3/circe-numbers_2.12-0.9.3-sources.jar
-[info] 	[SUCCESSFUL ] io.circe#circe-numbers_2.12;0.9.3!circe-numbers_2.12.jar(src) (183ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-jawn_2.12/0.9.3/circe-jawn_2.12-0.9.3-sources.jar
-[info] 	[SUCCESSFUL ] io.circe#circe-jawn_2.12;0.9.3!circe-jawn_2.12.jar(src) (180ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.0.1/cats-macros_2.12-1.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.12;1.0.1!cats-macros_2.12.jar(src) (188ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.2/machinist_2.12-0.6.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#machinist_2.12;0.6.2!machinist_2.12.jar(src) (194ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/0.9.3/circe-parser_2.12-0.9.3-sources.jar
-[info] 	[SUCCESSFUL ] io.circe#circe-parser_2.12;0.9.3!circe-parser_2.12.jar(src) (195ms)
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.12/1.3.5/scala-csv_2.12-1.3.5-sources.jar
-[info] 	[SUCCESSFUL ] com.github.tototoshi#scala-csv_2.12;1.3.5!scala-csv_2.12.jar(src) (198ms)
-[debug] 	public: downloading https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.0.1/cats-core_2.12-1.0.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-core_2.12;1.0.1!cats-core_2.12.jar(src) (257ms)
-[debug] :: resolution report :: resolve 231ms :: artifacts dl 264ms
+[debug] :: resolution report :: resolve 298ms :: artifacts dl 7ms
 [debug] 	report for default#jsontoobject$sources;0.1 compile produced in /Users/lucasreynes/DropBox/Perso/Project/JsonToObject/target/scala-2.12/resolution-cache/reports/default-jsontoobject$sources-compile.xml
 [debug] 	report for default#jsontoobject$sources;0.1 runtime produced in /Users/lucasreynes/DropBox/Perso/Project/JsonToObject/target/scala-2.12/resolution-cache/reports/default-jsontoobject$sources-runtime.xml
 [debug] 	report for default#jsontoobject$sources;0.1 test produced in /Users/lucasreynes/DropBox/Perso/Project/JsonToObject/target/scala-2.12/resolution-cache/reports/default-jsontoobject$sources-test.xml
@@ -2486,4 +2414,4 @@
 [debug] 	report for default#jsontoobject$sources;0.1 plugin produced in /Users/lucasreynes/DropBox/Perso/Project/JsonToObject/target/scala-2.12/resolution-cache/reports/default-jsontoobject$sources-plugin.xml
 [debug] 	report for default#jsontoobject$sources;0.1 pom produced in /Users/lucasreynes/DropBox/Perso/Project/JsonToObject/target/scala-2.12/resolution-cache/reports/default-jsontoobject$sources-pom.xml
 [debug] 	report for default#jsontoobject$sources;0.1 scala-tool produced in /Users/lucasreynes/DropBox/Perso/Project/JsonToObject/target/scala-2.12/resolution-cache/reports/default-jsontoobject$sources-scala-tool.xml
-[debug] 	resolve done (231ms resolve - 264ms download)
+[debug] 	resolve done (298ms resolve - 7ms download)
