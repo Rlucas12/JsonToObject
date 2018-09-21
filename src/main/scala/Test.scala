@@ -16,7 +16,8 @@ object Test extends App {
   val pisValues: Seq[(String, Seq[String])] = values.all.map(v => (v.head, v.tail))
   val correctValues: Seq[PhoneInformation] = pisValues.groupBy(_._1).map(a => PhoneInformation(a._1, a._2.flatMap(_._2))).toSeq
 
-  println(correctValues.asJson)
+  val finalValues: Map[String, Seq[String]] = pisValues.groupBy(_._1).flatMap { case(key, v) => Map(key -> v.flatMap(_._2))}
+  println(finalValues.asJson)
 
 }
 
